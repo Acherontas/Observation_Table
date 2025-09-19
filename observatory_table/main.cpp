@@ -162,6 +162,7 @@ int main(int argc,char** argv)
     long long int oficalc=ofi+ofiend;
     cdi=0;
     ct_res=cdis(oficalc,0);
+    ab[1]=ct_res;
     rgn->show_five();cout<<" ::== ";
     cout<<oficalc << " / "<<ct_res <<"\n";
     cdi=0;
@@ -171,7 +172,6 @@ int main(int argc,char** argv)
     rspab=pttr->ret_num(pab[0],pab[1],pab[2],pab[3]);
     cout<<"according to pattern the possible sum will be " << rspab <<"\n";
     cout<<"\n";
-    ab[1]=ct_res;
     cout<<"will pass values " << ab[1] << " and " << ab[0] <<"\n";
     cout<<"\n";
     cout<<"using orizontia unreverse method \n";

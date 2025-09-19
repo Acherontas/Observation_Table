@@ -1,0 +1,66 @@
+for every voyeristic behaviour out there its an observation table where the result get extracted from 
+reading the last two number if the sum is not 3 6 9 with the result almost the cell nearby with 
+a possible +-1 value its a good beginning 
+τιποτα δεν ειναι παρατηρησιμο μεχρι να το παρατηρησεις 
+u enter the number to start , u can set custom values press -5  default values is 1 and 3 or -4 to continue something like that 
+Πατα 1 για να εμφανίσεις το πως δουλεύει
+u enter x ::== 7878112
+
+u want custom values with value of change -4 with using start_custom=1 end_custom=3
+
+
+7878112 and 7 as sum of digits 
+
+@1 :: 1|4|2|8|5|7 
+@2 :: 2|8|5|7|1|4 
+@3 :: 4|2|8|5|7|1 
+@4 :: 5|7|1|4|2|8 
+@5 :: 7|1|4|2|8|5 
+@6 :: 8|5|7|1|4|2 
+@7 :: 1|4|2|8|5|7 
+@8 :: 2|8|5|7|1|4 
+
+7878112 7878113  ::== 15756225 / 6  || 
+7878111 7878112  ::== 15756223 / 4  || 
+7878112 7878113 7878114 7878115  ::== 15756227 / 8 || 
+7878109 7878110 7878111 7878112  ::== 15756221 / 2 || 
+7878109 7878110 7878111 7878112 7878113 7878114 7878115  ::== 15756224 / 5
+
+Initial sum = 32
+
+---------Internal Sum -----------
+|---> 5
+|---> Exiting with 5
+--------End of Sum------------
+
+
+according to pattern the possible sum will be 7
+
+will pass values 2 and 8
+
+using orizontia unreverse method 
+using order of 2 8
+Possible sum 
+@7-6 : 7 and 1
+@5-4 : 4 and 2
+@4-3 : 7 and 1
+@3-2 : 8 and 5
+@2-1 : 1 and 4
+@1-8 : 5 and 7
+@8-7 : 1 and 4
+exiting with value of 1
+
+using orizontia reverse method 
+using order 8 2
+exiting with value of 0
+
+using katheta unreverse method 
+using in order 2 down and up  8
+@3 ^2 : 4 and 2
+exiting with value of 1
+
+using orizonta reverse method 
+using in order 8 down and up  2
+@5 ^4 : 2 and 4
+exiting with value of 1
+

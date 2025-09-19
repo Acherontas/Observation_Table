@@ -6,7 +6,37 @@ u enter the number to start , u can set custom values press -5  default values i
 Πατα 1 για να εμφανίσεις το πως δουλεύει
 u enter x ::== 2785
 
-u want custom values with value of change -4 with using start_custom=1 end_custom=3
+u want custom values with value of change -4 with 
+Καλως ήρθατε στον βοηθό κατανόησης
+for a weird reason the X/7 create a wonderfull non-rainbow scheme of almost all numbers 
+για εναν περιεργο λογο η πραξη χ/7 δημιουργει μια ωραια μη χρωματιστη σεμασιολογια σχεδον όλων των αριθμών
+
+0.1428571
+             1 | 4 | 2 | 8 | 5 | 7 | 1 | 
+0.2857143
+             2 | 8 | 5 | 7 | 1 | 4 | 3 | 
+0.4285714
+             4 | 2 | 8 | 5 | 7 | 1 | 4 | 
+0.5714286
+             5 | 7 | 1 | 4 | 2 | 8 | 6 | 
+0.7142857
+             7 | 1 | 4 | 2 | 8 | 5 | 7 | 
+0.8571429
+             8 | 5 | 7 | 1 | 4 | 2 | 9 | 
+1
+             
+1.142857
+             1 | 4 | 2 | 8 | 5 | 7 | 
+1.285714
+             2 | 8 | 5 | 7 | 1 | 4 | 
+so we get the table 
+ετσι έχουμε την δημιουργια του πινακα
+the other point is the range of 4 numbers and the equal of them 
+το άλλο μισο είναι το εύρος των 4 αριθμών και το αποτέλεσμα της πρόσθεσης των ακραίων που ειναι ίδιο με των μεσσαίων
+τέλος με την εμφάνιση όλων αφήνεται να εννοηθεί το αποτέλεσμα *2 /2 
+
+
+using start_custom=1 end_custom=3
 
 
 2785 and 4 as sum of digits 

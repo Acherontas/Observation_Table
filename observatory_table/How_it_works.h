@@ -1,0 +1,6 @@
+#ifndef HOW_IT_WORKS_H_INCLUDED
+#define HOW_IT_WORKS_H_INCLUDED
+
+
+
+#endif // HOW_IT_WORKS_H_INCLUDED

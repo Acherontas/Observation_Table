@@ -1,0 +1,31 @@
+for every voyeristic behaviour out there 
+its an observation table where the result get extracted from 
+reading the last two number if the sum is not 3 6 9 with the result almost the cell nearby with 
+a possible +-1 value 
+its a good beginning
+τιποτα δεν ειναι παρατηρησιμο μεχρι να το παρατηρησεις 
+u enter the number to start and the times u want to run as sum or range of pivots  
+something like that 
+u enter x 
+135782
+u enter times to run 
+10
+
+ur x 135782 with 135781 135783 135779 135785
+
+135782 and 8
+
+
+1|4|2|8|5|7
+2|8|5|7|1|4
+4|2|8|5|7|1
+5|7|1|4|2|8
+7|1|4|2|8|5
+8|5|7|1|4|2
+1|4|2|8|5|7
+2|8|5|7|1|4
+
+271565 8 
+271563 6 
+271567 1 
+271561 4 

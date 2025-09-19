@@ -1,0 +1,27 @@
+#include "patter.h"
+
+Patter::Patter(){}//ctor
+Patter::~Patter(){}//dtor
+Patter::Patter(const Patter& other){}//copy ctor
+// handle self assignment//assignment operator
+Patter& Patter::operator=(const Patter& rhs){if (this == &rhs) return *this; return *this;}
+
+int Patter:ret_num(int a,int b ,int c,int d){
+    
+    int pat_one[5]={3,1,5,-1,1};
+        int pat_two[5]={5,3,7,1,2};
+        int pat_thre[5]={7,5,9,3,3};
+        int pat_tes[5]={9,7,2,5,4};
+        int pat_pente[5]={2,9,4,7,5};
+        int pat_exi[5]={4,2,6,9,6};
+        int pat_efta[5]={6,4,8,2,7};
+        int pat_okto[5]={8,6,1,4,8};
+        int pat_ennia[5]={1,8,3,6,9};
+        int pat_ofdigitsum[5]={3,1,5,8,1};
+        
+        
+        if(pat_one[0]==a && pat_one[1]==b&& pat_one[2]==c && pat_one[3]==d){return 1;}
+        if(pat_two[0]==a && pat_two[1]==b&& pat_two[2]==c && pat_two[3]==d){return 2;}
+        
+
+}

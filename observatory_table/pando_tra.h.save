@@ -1,0 +1,33 @@
+#ifndef PANDO_TRA_H
+#define PANDO_TRA_H
+
+
+class pando_tra
+{
+    public:
+        pando_tra();
+        virtual ~pando_tra();
+        pando_tra(const pando_tra& other);
+        pando_tra& operator=(const pando_tra& other);
+        int ena[6]={1,4,2,8,5,7};
+        int dio[6]={2,8,5,7,1,4};
+        int tria[6]={4,2,8,5,7,1};
+        int tessera[6]={5,7,1,4,2,8};
+        int pente[6]={7,1,4,2,8,5};
+        int exi[6]={8,5,7,1,4,2};
+        int efta[6]={1,4,2,8,5,7};
+        int okto[6]={2,8,5,7,1,4};
+        int posz[3];
+        int stt=0;
+        int clear_pos();
+        int orizontia_unreverse(int a,int b);
+        int orizontia_reverse(int a,int b);
+        int katheta_unreverse(int a ,int b);
+        int katheta_reverse(int a,int b);
+
+    protected:
+
+    private:
+};
+
+#endif // PANDO_TRA_H

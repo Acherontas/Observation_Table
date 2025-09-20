@@ -1,0 +1,89 @@
+acherontas@acherontas:~/codeblocks/observatory_table/bin/Debug $ ./observatory_table 986534222133876116 -4 1  > 986_more.txt
+for every voyeristic behaviour out there its an observation table where the result get extracted from 
+reading the last two number if the sum is not 3 6 9 with the result almost the cell nearby with 
+a possible +-1 value its a good beginning 
+τιποτα δεν ειναι παρατηρησιμο μεχρι να το παρατηρησεις 
+u enter the number to start , u can set custom values press -5  default values is 1 and 3 or -4 to continue something like that 
+Πατα 1 για να εμφανίσεις το πως δουλεύει
+u enter x ::== 986534222133876116
+
+u want custom values with value of change -4 with 
+Καλως ήρθατε στον βοηθό κατανόησης
+for a weird reason the X/7 create a wonderfull non-rainbow scheme of almost all numbers 
+για εναν περιεργο λογο η πραξη χ/7 δημιουργει μια ωραια μη χρωματιστη σεμασιολογια σχεδον όλων των αριθμών
+
+0.1428571
+             1 | 4 | 2 | 8 | 5 | 7 | 1 | 
+0.2857143
+             2 | 8 | 5 | 7 | 1 | 4 | 3 | 
+0.4285714
+             4 | 2 | 8 | 5 | 7 | 1 | 4 | 
+0.5714286
+             5 | 7 | 1 | 4 | 2 | 8 | 6 | 
+0.7142857
+             7 | 1 | 4 | 2 | 8 | 5 | 7 | 
+0.8571429
+             8 | 5 | 7 | 1 | 4 | 2 | 9 | 
+1
+             
+1.142857
+             1 | 4 | 2 | 8 | 5 | 7 | 
+1.285714
+             2 | 8 | 5 | 7 | 1 | 4 | 
+so we get the table 
+ετσι έχουμε την δημιουργια του πινακα
+the other point is the range of 4 numbers and the equal of them 
+το άλλο μισο είναι το εύρος των 4 αριθμών και το αποτέλεσμα της πρόσθεσης των ακραίων που ειναι ίδιο με των μεσσαίων
+τέλος με την εμφάνιση όλων αφήνεται να εννοηθεί το αποτέλεσμα *2 /2 
+
+using start_custom=1 end_custom=3
+
+986534222133876116 and 5 as sum of digits 
+
+@1 :: 1|4|2|8|5|7 
+@2 :: 2|8|5|7|1|4 
+@3 :: 4|2|8|5|7|1 
+@4 :: 5|7|1|4|2|8 
+@5 :: 7|1|4|2|8|5 
+@6 :: 8|5|7|1|4|2 
+@7 :: 1|4|2|8|5|7 
+@8 :: 2|8|5|7|1|4 
+
+986534222133876116 986534222133876117  ::== 1973068444267752233 / 2  || 
+986534222133876115 986534222133876116  ::== 1973068444267752231 / 9  || 
+986534222133876116 986534222133876117 986534222133876118 986534222133876119  ::== 1973068444267752235 / 4 || 
+986534222133876113 986534222133876114 986534222133876115 986534222133876116  ::== 1973068444267752229 / 7 || 
+986534222133876113 986534222133876114 986534222133876115 986534222133876116 986534222133876117 986534222133876118 986534222133876119  ::== 1973068444267752232 / 1
+
+Initial sum = 82
+
+---------Internal Sum -----------
+|---> 10 /2 or *2 or /1 or *1
+|---> 1
+|---> Exiting with 1
+--------End of Sum------------
+
+according to pattern the possible sum will be 5
+
+will pass values 7 and 4
+
+using orizontia unreverse method 
+using order of 7 4
+exiting with value of 0
+
+using orizontia reverse method 
+using order 4 7
+exiting with value of 0
+
+using katheta unreverse method 
+using in order 7 down and up  4
+@6 ^5 : 5 and 1
+@1 ^8 : 5 and 1
+exiting with value of 1
+
+using orizonta reverse method 
+using in order 4 down and up  7
+@8 ^7 : 1 and 5
+@2 ^1 : 1 and 5
+exiting with value of 1
+

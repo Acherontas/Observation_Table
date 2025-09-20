@@ -1,0 +1,116 @@
+for every voyeristic behaviour out there its an observation table where the result get extracted from 
+reading the last two number if the sum is not 3 6 9 with the result almost the cell nearby with 
+a possible +-1 value its a good beginning 
+τιποτα δεν ειναι παρατηρησιμο μεχρι να το παρατηρησεις 
+u enter the number to start , u can set custom values press -5  default values is 1 and 3 or -4 to continue something like that 
+Πατα 1 για να εμφανίσεις το πως δουλεύει
+
+
+u enter x ::== 2785
+
+
+( 999 + 1 ) * 2 ::== 
+ ------> 999 * 2 ::== 1998 + 
+ ------> 1 * 2 ::== 2
+
+       + 
+
+( 99 + 1 ) * 7 ::== 
+ ------> 99 * 7 ::== 693 + 
+ ------> 1 * 7 ::== 7
+
+       + 
+
+( 9 + 1 ) * 8 ::== 
+ ------> 9 * 8 ::== 72 + 
+ ------> 1 * 8 ::== 8
+
+       + 
+
+( 0 + 1 ) * 5 ::== 
+ ------> 0 * 5 ::== 0 + 
+ ------> 1 * 5 ::== 5
+
+       = 
+
+
+Athroisma ton 9
+1998 + 693 + 72 + 0 +  ::== 2763 with sum of digits 9
+
+Athroisma ton mi 9
+2 + 7 + 8 + 5 +  ::== 22 with sum of digits 4
+
+with recheck of 2763 + 22 ::== 2785
+
+
+u want custom values with value of change -4 with using start_custom=1 end_custom=3
+
+
+2785 and 4 as sum of digits 
+
+@1 :: 1|4|2|8|5|7 
+@2 :: 2|8|5|7|1|4 
+@3 :: 4|2|8|5|7|1 
+@4 :: 5|7|1|4|2|8 
+@5 :: 7|1|4|2|8|5 
+@6 :: 8|5|7|1|4|2 
+@7 :: 1|4|2|8|5|7 
+@8 :: 2|8|5|7|1|4 
+
+2785 2786  ---> 2785 + 2786  ::== 5571 of  / 9  || 
+2784 2785  ---> 2784 + 2785  ::== 5569 / 7  || 
+2785 2786 2787 2788  ---> 2785 + 2788  ::== 5573 / 2 || 
+2782 2783 2784 2785  ---> 2782 + 2785  ::== 5567 / 5 || 
+2782 2783 2784 2785 2786 2787 2788  ---> 2782 + 2788  ::== 5570 / 8
+or 2785 + 2785 ::== 5570
+
+Initial sum = 17
+
+---------Internal Sum -----------
+|---> 8
+|---> Exiting with 8
+--------End of Sum------------
+
+
+according to pattern the possible sum will be 4
+
+according to cdis of main number 
+
+using value of ::== 4
+@i 0 of number 17 ::== of result  | FOUND 
+ -------> /2 ::== 8 | 0
+ -------> *2 ::== 34 | 0
+ -------> *1 ::== 17 | 0
+ -------> +1 ::== 18 | 0
+ -------> -1 ::== 16 | 0
+-------------------------
+@i 1 of number 8 ::== of result  | FOUND 
+ -------> /2 ::== 4 | 1
+ -------> *2 ::== 16 | 0
+ -------> *1 ::== 8 | 0
+ -------> +1 ::== 9 | 0
+ -------> -1 ::== 7 | 0
+-------------------------
+
+will pass values 5 and 2
+
+using orizontia unreverse method 
+using order of 5 2 and pattern value of 4
+exiting with value of 0
+
+using orizontia reverse method 
+using order 2 5 and pattern value of 4
+exiting with value of 0
+
+using katheta unreverse method 
+using in order 5 down and up  2 and pattern value of 4
+@8 ^7 : 8 and 4 FOUND 1
+@2 ^1 : 8 and 4 FOUND 1
+exiting with value of 1
+
+using orizonta reverse method 
+using in order 2 down and up  5 and pattern value of 4
+@6 ^5 : 4 and 8 FOUND 1
+@1 ^8 : 4 and 8 FOUND 1
+exiting with value of 1
+

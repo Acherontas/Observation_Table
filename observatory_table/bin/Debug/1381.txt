@@ -1,0 +1,46 @@
+for every voyeristic behaviour out there its an observation table where the result get extracted from 
+reading the last two number if the sum is not 3 6 9 with the result almost the cell nearby with 
+a possible +-1 value its a good beginning 
+τιποτα δεν ειναι παρατηρησιμο μεχρι να το παρατηρησεις 
+u enter the number to start , u can set custom values press -5  default values is 1 and 3 or -4 to continue something like that 
+u enter x ::== 1381
+
+u want custom values with value of change -4 with using start_custom=1 end_custom=3
+
+1381 and 4 as sum of digits 
+
+@1 :: 1|4|2|8|5|7 
+@2 :: 2|8|5|7|1|4 
+@3 :: 4|2|8|5|7|1 
+@4 :: 5|7|1|4|2|8 
+@5 :: 7|1|4|2|8|5 
+@6 :: 8|5|7|1|4|2 
+@7 :: 1|4|2|8|5|7 
+@8 :: 2|8|5|7|1|4 
+
+2763 / 9  || 2761 / 7  || 2765 / 2 || 2759 / 5 
+
+according to pattern the possible sum will be 4
+
+will pass values 5 and 2
+
+using orizontia unreverse method 
+using order of 5 2
+exiting with value of 0
+
+using orizontia reverse method 
+using order 2 5
+exiting with value of 0
+
+using katheta unreverse method 
+using in order 5 down and up  2
+@8 ^7 : 8 and 4
+@2 ^1 : 8 and 4
+exiting with value of 1
+
+using orizonta reverse method 
+using in order 2 down and up  5
+@6 ^5 : 4 and 8
+@1 ^8 : 4 and 8
+exiting with value of 1
+

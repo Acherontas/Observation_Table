@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="observatory_table" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/observatory_table" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-fpermissive" />
+					<Add directory="./" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/observatory_table" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="how_it_works.cpp" />
+		<Unit filename="how_it_works.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="nine_zero_method.cpp" />
+		<Unit filename="nine_zero_method.h" />
+		<Unit filename="of_cdis.cpp" />
+		<Unit filename="of_cdis.h" />
+		<Unit filename="pando_tra.cpp" />
+		<Unit filename="pando_tra.h" />
+		<Unit filename="patter.cpp" />
+		<Unit filename="patter.h" />
+		<Unit filename="range_gen.cpp" />
+		<Unit filename="range_gen.h" />
+		<Unit filename="sum_cdi.cpp" />
+		<Unit filename="sum_cdi.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,85 @@
+for every voyeristic behaviour out there its an observation table where the result get extracted from 
+reading the last two number if the sum is not 3 6 9 with the result almost the cell nearby with 
+a possible +-1 value its a good beginning 
+τιποτα δεν ειναι παρατηρησιμο μεχρι να το παρατηρησεις 
+u enter the number to start , u can set custom values press -5  default values is 1 and 3 or -4 to continue something like that 
+Πατα 1 για να εμφανίσεις το πως δουλεύει
+u enter x ::== 278545785641486
+
+u want custom values with value of change -4 with using start_custom=1 end_custom=3
+
+
+278545785641486 and 8 as sum of digits 
+
+@1 :: 1|4|2|8|5|7 
+@2 :: 2|8|5|7|1|4 
+@3 :: 4|2|8|5|7|1 
+@4 :: 5|7|1|4|2|8 
+@5 :: 7|1|4|2|8|5 
+@6 :: 8|5|7|1|4|2 
+@7 :: 1|4|2|8|5|7 
+@8 :: 2|8|5|7|1|4 
+
+278545785641486 278545785641487  ---> 278545785641486 + 278545785641487  ::== 557091571282973 of  / 8  || 
+278545785641485 278545785641486  ---> 278545785641485 + 278545785641486  ::== 557091571282971 / 6  || 
+278545785641486 278545785641487 278545785641488 278545785641489  ---> 278545785641486 + 278545785641489  ::== 557091571282975 / 1 || 
+278545785641483 278545785641484 278545785641485 278545785641486  ---> 278545785641483 + 278545785641486  ::== 557091571282969 / 4 || 
+278545785641483 278545785641484 278545785641485 278545785641486 278545785641487 278545785641488 278545785641489  ---> 278545785641483 + 278545785641489  ::== 557091571282972 / 7
+or 278545785641486 + 278545785641486 ::== 557091571282972
+
+Initial sum = 70
+
+---------Internal Sum -----------
+|---> 7
+|---> Exiting with 7
+--------End of Sum------------
+
+
+according to pattern the possible sum will be 8
+
+according to cdis of main number 
+
+using value of ::== 8
+@i 0 of number 70 ::== of result  | FOUND 
+ -------> /2 ::== 35 | 0
+ -------> *2 ::== 140 | 0
+ -------> *1 ::== 70 | 0
+ -------> +1 ::== 71 | 0
+ -------> -1 ::== 69 | 0
+-------------------------
+@i 1 of number 7 ::== of result  | FOUND 
+ -------> /2 ::== 3 | 0
+ -------> *2 ::== 14 | 0
+ -------> *1 ::== 7 | 0
+ -------> +1 ::== 8 | 1
+ -------> -1 ::== 6 | 0
+-------------------------
+
+will pass values 4 and 1
+
+using orizontia unreverse method 
+using order of 4 1 and pattern value of 8
+exiting with value of 0
+
+using orizontia reverse method 
+using order 1 4 and pattern value of 8
+Possible sum 
+@7-6 : 8 and 5 FOUND 1
+@6-5 : 2 and 8 FOUND 1
+@5-4 : 7 and 1 FOUND 0
+@4-3 : 8 and 5 FOUND 1
+@2-1 : 5 and 7 FOUND 0
+@1-8 : 2 and 8 FOUND 1
+@8-7 : 5 and 7 FOUND 0
+exiting with value of 1
+
+using katheta unreverse method 
+using in order 4 down and up  1 and pattern value of 8
+@5 ^4 : 1 and 7 FOUND 0
+exiting with value of 1
+
+using orizonta reverse method 
+using in order 1 down and up  4 and pattern value of 8
+@3 ^2 : 7 and 1 FOUND 0
+exiting with value of 1
+
